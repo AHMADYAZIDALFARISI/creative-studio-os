@@ -1,0 +1,32 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# Client exports and large media (store in the client drive)
+projects/*/exports/
+*.fig
+*.psd
+*.zip
